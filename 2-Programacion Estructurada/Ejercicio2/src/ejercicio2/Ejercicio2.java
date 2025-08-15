@@ -1,12 +1,12 @@
 package ejercicio2;
-    /*
+
+/*
     Determinar el Mayor de Tres Números. 
     Escribe un programa en Java que pida al usuario tres números enteros y determine cuál es el mayor.
-     */
+ */
 import java.util.Scanner;
 
 public class Ejercicio2 {
-
 
     public static void main(String[] args) {
         //Lamamos al metodo Scanner para poder ingresar datos por consola.
