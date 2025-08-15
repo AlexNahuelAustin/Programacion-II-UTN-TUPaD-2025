@@ -35,5 +35,4 @@ Escribe un programa en Java que solicite al usuario su edad y clasifique su etap
             System.out.println("Eres un adulto mayor");
         }
     }
-
 }

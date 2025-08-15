@@ -27,24 +27,19 @@ public class Ejercicio13 {
         // declaramos la array
         double[] precio = {50, 155.5, 112, 25, 45, 15.6, 156.8, 100.80, 455};
 
-        
-         System.out.println("-------- Precios Originales --------");
+        System.out.println("-------- Precios Originales --------");
         //Usa la función recursiva para mostrar los precios originales.
         precio_recu_(precio, 0);
 
         //Modifica el precio de un producto específico 
-        precio [2] = 49.5;
-        precio [0] = 49.5;
-        precio [6] = 160;
+        precio[2] = 49.5;
+        precio[0] = 49.5;
+        precio[6] = 160;
 
         System.out.println("\n------ Precios Modificados -------");
         //Usa la misma función recursiva para mostrar los valores modificados.
         precio_recu_(precio, 0);
-        
-        
-        
-        
-        
+
     }
 
 }
