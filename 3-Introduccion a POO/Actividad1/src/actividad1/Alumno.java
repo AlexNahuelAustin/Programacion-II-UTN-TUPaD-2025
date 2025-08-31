@@ -1,7 +1,9 @@
 package actividad1;
 
-public class Alumno {
+import java.util.Scanner;
 
+public class Alumno {
+    Scanner teclado = new Scanner(System.in);
    String nombre; 
    String apellido;
    String curso;
@@ -17,8 +19,10 @@ public class Alumno {
        
    }
     
-    public void subirCalificacion(double calificacion){
-        this.calificacion += calificacion;
+    public double subirCalificacion(double puntoExtra){
+        puntoExtra = Double.parseDouble(teclado.nextLine());
+        calificacion += puntoExtra;
+      return calificacion;
         
     }
     

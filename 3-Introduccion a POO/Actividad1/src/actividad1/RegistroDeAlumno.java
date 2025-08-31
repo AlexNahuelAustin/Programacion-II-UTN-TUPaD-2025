@@ -25,10 +25,12 @@ Tarea: Instanciar a un estudiante, mostrar su información, aumentar y disminuir
         alum1.calificacion = Double.parseDouble(teclado.nextLine());
 
         alum1.motrarInfo(alum1.nombre, alum1.apellido, alum1.curso, alum1.calificacion);
-
-          System.out.println("Ingrese los puntos extra del estudiante: " );
-        alum1.subirCalificacion(4);
-        System.out.println("Ingrese los puntos extra del estudiante: " + alum1.calificacion);
+        
+        
+        
+        System.out.println("Ingrese los puntos extra del estudiante: " );
+        alum1.subirCalificacion(alum1.calificacion);
+        System.out.println("La calificaion del alumno por su puntos extras es: " + alum1.calificacion);
         
         
         
