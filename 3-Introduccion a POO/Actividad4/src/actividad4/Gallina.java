@@ -4,9 +4,9 @@ package actividad4;
 
 public class Gallina {
 // declararamos los atributos de la gallina
-    int idGallina;
-    int edad;
-    int huevoPuestos;
+   private final  int idGallina;
+  private  int edad;
+    private int huevoPuestos;
 // creamos el constructor 
     public Gallina(int idGallina, int edad, int huevoPuestos) {
         this.idGallina = idGallina;
