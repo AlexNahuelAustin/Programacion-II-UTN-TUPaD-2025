@@ -14,6 +14,7 @@ public class NaveEspacial {
 
     }
 //metodo para el despege
+
     public void despegar() {
         if (combustible >= 5) {
             combustible -= 5;
@@ -23,6 +24,7 @@ public class NaveEspacial {
         }
     }
 //metodo para avanzar
+
     public void avanzar(int distancia) {
         int consumos = distancia * 2;
         distanciaRecorrida += distancia;
@@ -34,6 +36,7 @@ public class NaveEspacial {
         }
     }
 // metofdo para recargar combustible
+
     public void recargarCombustible(int cantidad) {
         if ((combustible + cantidad) < TANQUE_CAPACIDAD_MAX) {
             combustible += cantidad;
@@ -44,6 +47,7 @@ public class NaveEspacial {
         }
     }
 // metodo para mostrar el estado de la nave espacial
+
     public void mostrarEstado() {
         System.out.println("---------------Informacion de la nave espacial---------------");
         System.out.println("Nombre de la nave: " + nombre);

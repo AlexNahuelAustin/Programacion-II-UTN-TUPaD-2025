@@ -16,15 +16,15 @@ Tarea: Crear dos gallinas, simular sus acciones (envejecer y poner huevos), y mo
         //mostramos la informacion inicial.
         gallina1.mostraEstado();
         gallina2.mostraEstado();
-        
+
         // envejecemos a las gallinas
         gallina1.envejecer(5);
         gallina2.envejecer(5);
-        
+
         //puesta de huevos
         gallina1.ponerHuevos(19);
         gallina2.ponerHuevos(6);
-        
+
         // mostramos la informacion actual de las gallinas
         gallina1.mostraEstado();
         gallina2.mostraEstado();

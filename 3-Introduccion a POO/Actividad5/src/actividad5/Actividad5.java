@@ -21,10 +21,10 @@ Tarea: Crear una nave con 50 unidades de combustible, intentar avanzar sin recar
 
 //llamamos el metodo para recargar combustiblr
         nave1.recargarCombustible(31);
-        
+
         //llamamos al metdo avanzar nuevamente.
         nave1.avanzar(20);
-        
+
         //mostramos el estado 
         nave1.mostrarEstado();
     }
