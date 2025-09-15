@@ -1,9 +1,11 @@
 package ejercicio2;
 
 public class Usuario {
-private String nombre;
-private  int DNI;
-private Celular celular;
+
+    // Declaramos los atributos
+    private String nombre;
+    private int DNI;
+    private Celular celular;
 
     public Usuario(String nombre, int DNI) {
         this.nombre = nombre;
@@ -14,16 +16,5 @@ private Celular celular;
     public String toString() {
         return "Usuario{" + "nombre=" + nombre + ", DNI=" + DNI + '}';
     }
-
-    
-    
-
-
- 
-
-
-
-
-
 
 }

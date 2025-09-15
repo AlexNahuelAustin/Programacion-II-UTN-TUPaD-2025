@@ -1,7 +1,7 @@
 package ejercicio2;
 
 public class Celular {
-
+    // Declaramos los atributos
     private String imei;
     private String marca;
     private String modelo;
@@ -16,13 +16,9 @@ public class Celular {
         this.usuario = usuario;
     }
 
-   
-
     @Override
     public String toString() {
         return "Celular{" + "imei=" + imei + ", marca=" + marca + ", modelo=" + modelo + ", bateria=" + bateria + ", usuario=" + usuario + '}';
     }
-
-
 
 }

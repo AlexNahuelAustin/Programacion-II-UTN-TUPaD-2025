@@ -2,6 +2,7 @@ package ejercicio2;
 
 public class Bateria {
 
+    // Declaramos los atributos
     private String modelo;
     private String capacidad;
 

@@ -3,6 +3,7 @@ package ejercicio2;
 public class Ejercicio2 {
 
     public static void main(String[] args) {
+        // Creamos los distintos objetos
         Bateria bate1 = new Bateria("FR1", "1220mAh");
         Usuario user1 = new Usuario("Alex Austin", 4255200);
         Celular celu1 = new Celular("A501", "samsom", "w12", bate1, user1);
@@ -13,6 +14,7 @@ public class Ejercicio2 {
         Usuario user3 = new Usuario("Zoe Schumager", 4505299);
         Celular celu3 = new Celular("A501", "samsom", "QW1", bate1, user1);
 
+        // Mostramo por consola 
         System.out.println(celu1);
         System.out.println(" ");
         System.out.println(celu2);
